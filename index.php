@@ -1,8 +1,8 @@
 <?php get_header(); ?>
     <div id="mainPicture">
-    	<div class="picture">
-        	<div id="headerTitle">An Ocean of Sky</div>
-            <div id="headerSubtext">An XHTML 1.0 Strict Template by Bryant Smith</div>
+    	<div class="picture"  style="background: url('<?php header_image(); ?>');">
+        	<div id="headerTitle"><?php bloginfo('title') ?></div>
+            <div id="headerSubtext"><?php bloginfo('description'); ?></div>
         </div>
     </div>
         <div class="contentBox">

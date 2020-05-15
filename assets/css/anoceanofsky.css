@@ -9,7 +9,6 @@ body {
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
 	color: #061C37;
-	background: #014D5D url(background.png);
 	background-repeat:repeat-x;
 }
 *
@@ -57,7 +56,7 @@ display: block;
 width:121px;
 height: 35px;
 line-height: 35px;
-background-image:url(tab.png);
+background-image:url(../../images/tab.png);
 
 }
 
@@ -81,7 +80,6 @@ position:relative;
 width:650px;
 height:325px;
 top:10px;
-background-image:url(anoceanofsky.jpg);
 background-repeat:no-repeat;
 margin-left:10px;
 }
@@ -121,7 +119,7 @@ width:650px;
 height:auto;
 top:10px;
 margin-left:10px;
-background-image:url(content_back.png);
+background-image:url(../../images/content_back.png);
 background-repeat:repeat-x;
 padding-bottom:35px;
 }
@@ -143,11 +141,12 @@ margin-left:13px;
 margin-right:13px;
 }
 
-#footer {
+footer {
 
 width: 670px;
 height:16px;
-background: url(footer.png) no-repeat;
+background: url(../../images/footer.png);
+/*background: #000;*/
 text-align:center;
 font-size:9px;
 font-family:Arial, Helvetica, sans-serif;
@@ -155,7 +154,7 @@ color:#386172;
 padding-top:5px;
 }
 
-#footer a
+footer a
 {
 text-decoration:none;
 color:#386172;
